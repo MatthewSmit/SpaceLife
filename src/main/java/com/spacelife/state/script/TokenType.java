@@ -1,0 +1,12 @@
+package com.spacelife.state.script;
+
+public enum TokenType {
+    EOF,
+    COLON,
+    STATEMENT_START,
+    TEXT,
+    TEXT_ESCAPE,
+    TEXT_CONTINUE,
+    LEFT_PARANTHESIS,
+    IDENTIFIER, VAR, EQUALITY, ASSIGNMENT, DOT, RIGHT_PARANTHESIS, SEMICOLON, LEFT_BRACE, RIGHT_BRACE,
+}

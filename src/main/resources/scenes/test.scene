@@ -1,0 +1,32 @@
+:name
+#Test
+
+:description
+#Test Description
+
+:intro
+    var test = Npc.random(gender: MALE);
+
+    #This is the introduction.
+    #Random NPC: {test}
+
+    <state1>
+    <state2>
+
+:state1:State 1:Change to state 1
+    This is state 1.
+
+    <state2>
+    <state3>
+
+:state2:State 2:Change to state 2
+    This is state 2.
+
+    <state3>
+
+:state3:State 3:Change to state 3
+    This is state 3.
+
+    <"Intro", "Back to the introduction", {
+        changeScene("test");
+    }>
